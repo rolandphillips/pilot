@@ -9,3 +9,9 @@
 # git commit -m "first commit"
 # git remote add origin https://github.com/rolandphillips/pilot.git
 # git push -u origin master
+
+
+# Update the readme file
+# git add README.md
+# git commit -m “second commit"
+# git push -u origin master
