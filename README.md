@@ -1,8 +1,8 @@
 # Run MI portal tests on Mac
-mvn clean verify -Dusername=evan.scharfer@slalom.com -Dpassword=rfqaAbbVie2017 -Durl=https://mi-portal.sand.gmatas.net/ -Ddriver=src/test/java/com/mwp/abbmi/resources/other/chromedriver -Dcucumber.options=src/test/java/com/mwp/abbmi/resources/features/stabilityToolHumira.feature
+mvn clean verify -Dusername=evan.scharfer@slalom.com -Dpassword= -Durl=https://mi-portal.sand.gmatas.net/ -Ddriver=src/test/java/com/mwp/abbmi/resources/other/chromedriver -Dcucumber.options=src/test/java/com/mwp/abbmi/resources/features/stabilityToolHumira.feature
 
 # Run MI portal tests on PC
-mvn clean verify -Dusername=evan.scharfer@slalom.com -Dpassword=rfqaAbbVie2017 -Durl=https://mi-portal.sand.gmatas.net/ -Ddriver=src/test/java/com/mwp/abbmi/resources/other/chromedriver.exe -Dcucumber.options=src/test/java/com/mwp/abbmi/resources/features/stabilityToolHumira.feature
+mvn clean verify -Dusername=evan.scharfer@slalom.com -Dpassword= -Durl=https://mi-portal.sand.gmatas.net/ -Ddriver=src/test/java/com/mwp/abbmi/resources/other/chromedriver.exe -Dcucumber.options=src/test/java/com/mwp/abbmi/resources/features/stabilityToolHumira.feature
 
 # Run Puppeteer
 JWT=value jest ./tests/puppeteer/manual/adverseEvent/aerInfo/aerInfoConditionals.spec.js
