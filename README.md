@@ -84,4 +84,6 @@ PR the branch and merge into master
 
 # Checkout remote branch
 
-git checkout -b beta
+git checkout -b branchname
+git branch --set-upstream-to=origin/<branch> branchname
+git pull
