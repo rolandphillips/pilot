@@ -81,4 +81,7 @@ Git add file
 git commit -m "branch commit"
 git push origin branch1 ///branch is added into GitHub
 PR the branch and merge into master
-2
+
+# Checkout remote branch
+
+git checkout -b beta
